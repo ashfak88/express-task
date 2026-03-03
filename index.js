@@ -17,9 +17,6 @@ app.post("/users", (req, res) => {
     username
   }
 
-
-
-
   
   users.push(newUser)
   res.status(201).json(newUser)
